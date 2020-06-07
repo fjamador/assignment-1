@@ -50,8 +50,9 @@ li a:hover {
   background-color: #D3D3D3;
 }
 
-/* Create two columns/boxes that floats next to each other */
-div {
+/* Create two columns/boxes that float next to each other */
+/* create an id to style the div container for the right box*/
+#divr {
   float: left;
   width: 70%;
   background: white;
@@ -61,8 +62,9 @@ div {
   border-color: #696969;
 }
 
-/* Style the article */
-article {
+/* create an id to style the div container for the left box*/
+
+#divl {
   float: left;
   padding: 20px;
   width: 30%;
@@ -71,7 +73,7 @@ article {
 }
 
 /* Style the article list */
-.liarticle {
+.li {
   background-color: white;
 }
 
@@ -81,6 +83,14 @@ section:after {
   display: table;
   clear: both;
 }
+
+/* Style the image */
+img {
+    float: right;
+    width: 104px;
+    height: 142px;
+}
+
 
 /* Style the footer */
 footer {
